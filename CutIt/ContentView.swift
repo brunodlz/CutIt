@@ -1,6 +1,9 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @StateObject var viewModel: ScreenCaptureViewModel
+
     var body: some View {
         VStack {
             ScrollView {
@@ -18,15 +21,15 @@ struct ContentView: View {
 
             HStack {
                 Button("Make a Full Screenshot") {
-
+                    viewModel.takeScreenshot(for: .full)
                 }
 
                 Button("Make a Window Screenshot") {
-
+                    viewModel.takeScreenshot(for: .window)
                 }
 
                 Button("Make a Area Screenshot") {
-
+                    viewModel.takeScreenshot(for: .area)
                 }
             }
             .padding()
@@ -35,5 +38,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView(viewModel: .init())
 }
