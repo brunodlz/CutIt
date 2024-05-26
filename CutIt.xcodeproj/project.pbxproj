@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		157420A92C03AF4E00541476 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420A82C03AF4E00541476 /* TabButton.swift */; };
+		157420AD2C03B36800541476 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420AC2C03B36800541476 /* BlurView.swift */; };
 		157C25F62C003D55001793DD /* CutItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C25F52C003D55001793DD /* CutItApp.swift */; };
 		157C25F82C003D55001793DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C25F72C003D55001793DD /* ContentView.swift */; };
 		157C25FA2C003D55001793DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157C25F92C003D55001793DD /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		157420A82C03AF4E00541476 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		157420AC2C03B36800541476 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		157C25F22C003D55001793DD /* CutIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		157C25F52C003D55001793DD /* CutItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutItApp.swift; sourceTree = "<group>"; };
 		157C25F72C003D55001793DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				157420A82C03AF4E00541476 /* TabButton.swift */,
+				157420AC2C03B36800541476 /* BlurView.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				15BF2FEF2C0231A300E1ACF9 /* ScreenCaptureViewModel.swift in Sources */,
 				157420A92C03AF4E00541476 /* TabButton.swift in Sources */,
 				157C25F62C003D55001793DD /* CutItApp.swift in Sources */,
+				157420AD2C03B36800541476 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
