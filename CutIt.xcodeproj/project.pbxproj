@@ -17,8 +17,8 @@
 		157C25F82C003D55001793DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C25F72C003D55001793DD /* ContentView.swift */; };
 		157C25FA2C003D55001793DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157C25F92C003D55001793DD /* Assets.xcassets */; };
 		157C25FD2C003D55001793DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157C25FC2C003D55001793DD /* Preview Assets.xcassets */; };
-		15BF2FEF2C0231A300E1ACF9 /* ScreenCaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF2FEE2C0231A300E1ACF9 /* ScreenCaptureViewModel.swift */; };
-		15BF2FF22C0231D600E1ACF9 /* ScreenCaptureTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF2FF12C0231D600E1ACF9 /* ScreenCaptureTypes.swift */; };
+		15BF2FEF2C0231A300E1ACF9 /* ScreenshotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF2FEE2C0231A300E1ACF9 /* ScreenshotViewModel.swift */; };
+		15BF2FF22C0231D600E1ACF9 /* ScreenshotTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF2FF12C0231D600E1ACF9 /* ScreenshotTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +34,8 @@
 		157C25F92C003D55001793DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157C25FC2C003D55001793DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		157C25FE2C003D55001793DD /* CutIt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CutIt.entitlements; sourceTree = "<group>"; };
-		15BF2FEE2C0231A300E1ACF9 /* ScreenCaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCaptureViewModel.swift; sourceTree = "<group>"; };
-		15BF2FF12C0231D600E1ACF9 /* ScreenCaptureTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCaptureTypes.swift; sourceTree = "<group>"; };
+		15BF2FEE2C0231A300E1ACF9 /* ScreenshotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotViewModel.swift; sourceTree = "<group>"; };
+		15BF2FF12C0231D600E1ACF9 /* ScreenshotTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 		157420AB2C03B35100541476 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
-				157420B02C03B3F900541476 /* Components */,
 				157420AE2C03B3C400541476 /* TabView.swift */,
+				157420B02C03B3F900541476 /* Components */,
 				157420B62C03B44400541476 /* ViewModel */,
 				157420B52C03B43D00541476 /* Model */,
 			);
@@ -97,9 +97,19 @@
 		157420B92C03B9EB00541476 /* Screenshot */ = {
 			isa = PBXGroup;
 			children = (
+				157420BA2C03BA8B00541476 /* Model */,
+				15BF2FF02C0231A800E1ACF9 /* ViewModel */,
 				157420B72C03B9E700541476 /* ScreenshotView.swift */,
 			);
 			path = Screenshot;
+			sourceTree = "<group>";
+		};
+		157420BA2C03BA8B00541476 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15BF2FF12C0231D600E1ACF9 /* ScreenshotTypes.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		157C25E92C003D54001793DD = {
@@ -125,7 +135,6 @@
 				157C25F72C003D55001793DD /* ContentView.swift */,
 				157C25F92C003D55001793DD /* Assets.xcassets */,
 				157C25FE2C003D55001793DD /* CutIt.entitlements */,
-				15BF2FF02C0231A800E1ACF9 /* ViewModel */,
 				157C25FB2C003D55001793DD /* Preview Content */,
 				157420AA2C03AF5300541476 /* Scenes */,
 			);
@@ -143,8 +152,7 @@
 		15BF2FF02C0231A800E1ACF9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				15BF2FEE2C0231A300E1ACF9 /* ScreenCaptureViewModel.swift */,
-				15BF2FF12C0231D600E1ACF9 /* ScreenCaptureTypes.swift */,
+				15BF2FEE2C0231A300E1ACF9 /* ScreenshotViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -221,10 +229,10 @@
 			files = (
 				157420B82C03B9E700541476 /* ScreenshotView.swift in Sources */,
 				157420B22C03B41000541476 /* TabViewModel.swift in Sources */,
-				15BF2FF22C0231D600E1ACF9 /* ScreenCaptureTypes.swift in Sources */,
+				15BF2FF22C0231D600E1ACF9 /* ScreenshotTypes.swift in Sources */,
 				157420B42C03B43A00541476 /* TabOption.swift in Sources */,
 				157C25F82C003D55001793DD /* ContentView.swift in Sources */,
-				15BF2FEF2C0231A300E1ACF9 /* ScreenCaptureViewModel.swift in Sources */,
+				15BF2FEF2C0231A300E1ACF9 /* ScreenshotViewModel.swift in Sources */,
 				157420A92C03AF4E00541476 /* TabButton.swift in Sources */,
 				157C25F62C003D55001793DD /* CutItApp.swift in Sources */,
 				157420AF2C03B3C400541476 /* TabView.swift in Sources */,

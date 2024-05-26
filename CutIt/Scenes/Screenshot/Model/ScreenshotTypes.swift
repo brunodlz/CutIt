@@ -1,4 +1,4 @@
-enum ScreenCaptureTypes {
+enum ScreenshotTypes {
     case full
     case window
     case area

@@ -1,9 +1,9 @@
 import SwiftUI
 
-final class ScreenCaptureViewModel: ObservableObject {
+final class ScreenshotViewModel: ObservableObject {
     @Published var images: [NSImage] = []
 
-    func takeScreenshot(for type: ScreenCaptureTypes) {
+    func takeScreenshot(for type: ScreenshotTypes) {
         let task = Process()
         task.executableURL = URL(fileURLWithPath: "/usr/sbin/screencapture")
         task.arguments = type.processArguments

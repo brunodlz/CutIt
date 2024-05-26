@@ -1,8 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-
-    @StateObject var viewModel: ScreenCaptureViewModel
+    @StateObject var viewModel: ScreenshotViewModel
 
     var body: some View {
         TabView(viewModel: .init())

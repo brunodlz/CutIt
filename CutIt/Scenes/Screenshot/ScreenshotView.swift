@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ScreenshotView: View {
-    @StateObject var viewModel: ScreenCaptureViewModel
+    @StateObject var viewModel: ScreenshotViewModel
 
     var body: some View {
         VStack {
