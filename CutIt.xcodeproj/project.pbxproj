@@ -39,12 +39,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		157420AA2C03AF5300541476 /* View */ = {
+		157420AA2C03AF5300541476 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				157420AB2C03B35100541476 /* Tab */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		157420AB2C03B35100541476 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
 				157420A82C03AF4E00541476 /* TabButton.swift */,
 			);
-			path = View;
+			path = Tab;
 			sourceTree = "<group>";
 		};
 		157C25E92C003D54001793DD = {
@@ -72,7 +80,7 @@
 				157C25FE2C003D55001793DD /* CutIt.entitlements */,
 				157C25FB2C003D55001793DD /* Preview Content */,
 				15BF2FF02C0231A800E1ACF9 /* ViewModel */,
-				157420AA2C03AF5300541476 /* View */,
+				157420AA2C03AF5300541476 /* Scenes */,
 			);
 			path = CutIt;
 			sourceTree = "<group>";
