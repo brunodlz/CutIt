@@ -11,8 +11,7 @@ struct TabView: View {
                     TabButton(image: option.image, title: option.text) {
                         tabViewModel.selectedTab = option
 
-                        // FIXME: Temporary
-                        screenshotViewModel.takeScreenshot(for: .area)
+                        capture(from: option)
                     }
                 }
 
@@ -31,15 +30,14 @@ struct TabView: View {
         .ignoresSafeArea(.all, edges: .all)
     }
 
-    @ViewBuilder
-    private func capture(from option: TabOption) -> some View {
+    private func capture(from option: TabOption) {
         switch option {
             case .window:
-                ScreenshotView(viewModel: .init())
+                screenshotViewModel.takeScreenshot(for: .window)
             case .full:
-                ScreenshotView(viewModel: .init())
+                screenshotViewModel.takeScreenshot(for: .full)
             case .area:
-                ScreenshotView(viewModel: .init())
+                screenshotViewModel.takeScreenshot(for: .area)
         }
     }
 }
