@@ -9,12 +9,9 @@ struct TabView: View {
             VStack {
                 ForEach(tabViewModel.tabs, id: \.self) { option in
                     TabButton(image: option.image, title: option.text) {
-                        tabViewModel.selectedTab = option
-
                         capture(from: option)
                     }
                 }
-
                 Spacer()
             }
             .padding()
