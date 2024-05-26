@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		157420A92C03AF4E00541476 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420A82C03AF4E00541476 /* TabButton.swift */; };
 		157420AD2C03B36800541476 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420AC2C03B36800541476 /* BlurView.swift */; };
+		157420AF2C03B3C400541476 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420AE2C03B3C400541476 /* TabView.swift */; };
+		157420B22C03B41000541476 /* TabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420B12C03B41000541476 /* TabViewModel.swift */; };
+		157420B42C03B43A00541476 /* TabOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420B32C03B43A00541476 /* TabOption.swift */; };
 		157C25F62C003D55001793DD /* CutItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C25F52C003D55001793DD /* CutItApp.swift */; };
 		157C25F82C003D55001793DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C25F72C003D55001793DD /* ContentView.swift */; };
 		157C25FA2C003D55001793DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157C25F92C003D55001793DD /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		157420A82C03AF4E00541476 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		157420AC2C03B36800541476 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		157420AE2C03B3C400541476 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		157420B12C03B41000541476 /* TabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewModel.swift; sourceTree = "<group>"; };
+		157420B32C03B43A00541476 /* TabOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOption.swift; sourceTree = "<group>"; };
 		157C25F22C003D55001793DD /* CutIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		157C25F52C003D55001793DD /* CutItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutItApp.swift; sourceTree = "<group>"; };
 		157C25F72C003D55001793DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,10 +58,37 @@
 		157420AB2C03B35100541476 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
+				157420B02C03B3F900541476 /* Components */,
+				157420AE2C03B3C400541476 /* TabView.swift */,
+				157420B62C03B44400541476 /* ViewModel */,
+				157420B52C03B43D00541476 /* Model */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		157420B02C03B3F900541476 /* Components */ = {
+			isa = PBXGroup;
+			children = (
 				157420A82C03AF4E00541476 /* TabButton.swift */,
 				157420AC2C03B36800541476 /* BlurView.swift */,
 			);
-			path = Tab;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		157420B52C03B43D00541476 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				157420B32C03B43A00541476 /* TabOption.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		157420B62C03B44400541476 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				157420B12C03B41000541476 /* TabViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		157C25E92C003D54001793DD = {
@@ -175,11 +208,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157420B22C03B41000541476 /* TabViewModel.swift in Sources */,
 				15BF2FF22C0231D600E1ACF9 /* ScreenCaptureTypes.swift in Sources */,
+				157420B42C03B43A00541476 /* TabOption.swift in Sources */,
 				157C25F82C003D55001793DD /* ContentView.swift in Sources */,
 				15BF2FEF2C0231A300E1ACF9 /* ScreenCaptureViewModel.swift in Sources */,
 				157420A92C03AF4E00541476 /* TabButton.swift in Sources */,
 				157C25F62C003D55001793DD /* CutItApp.swift in Sources */,
+				157420AF2C03B3C400541476 /* TabView.swift in Sources */,
 				157420AD2C03B36800541476 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

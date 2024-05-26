@@ -12,5 +12,6 @@ struct CutItApp: App {
                     maxHeight: .infinity
                 )
         }
+        .windowStyle(.hiddenTitleBar)
     }
 }
