@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		157420A92C03AF4E00541476 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420A82C03AF4E00541476 /* TabButton.swift */; };
 		157C25F62C003D55001793DD /* CutItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C25F52C003D55001793DD /* CutItApp.swift */; };
 		157C25F82C003D55001793DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C25F72C003D55001793DD /* ContentView.swift */; };
 		157C25FA2C003D55001793DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157C25F92C003D55001793DD /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		157420A82C03AF4E00541476 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		157C25F22C003D55001793DD /* CutIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		157C25F52C003D55001793DD /* CutItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutItApp.swift; sourceTree = "<group>"; };
 		157C25F72C003D55001793DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		157420AA2C03AF5300541476 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				157420A82C03AF4E00541476 /* TabButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		157C25E92C003D54001793DD = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 				157C25FE2C003D55001793DD /* CutIt.entitlements */,
 				157C25FB2C003D55001793DD /* Preview Content */,
 				15BF2FF02C0231A800E1ACF9 /* ViewModel */,
+				157420AA2C03AF5300541476 /* View */,
 			);
 			path = CutIt;
 			sourceTree = "<group>";
@@ -156,6 +167,7 @@
 				15BF2FF22C0231D600E1ACF9 /* ScreenCaptureTypes.swift in Sources */,
 				157C25F82C003D55001793DD /* ContentView.swift in Sources */,
 				15BF2FEF2C0231A300E1ACF9 /* ScreenCaptureViewModel.swift in Sources */,
+				157420A92C03AF4E00541476 /* TabButton.swift in Sources */,
 				157C25F62C003D55001793DD /* CutItApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
