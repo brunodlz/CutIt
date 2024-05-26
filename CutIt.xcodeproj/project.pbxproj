@@ -12,6 +12,7 @@
 		157420AF2C03B3C400541476 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420AE2C03B3C400541476 /* TabView.swift */; };
 		157420B22C03B41000541476 /* TabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420B12C03B41000541476 /* TabViewModel.swift */; };
 		157420B42C03B43A00541476 /* TabOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420B32C03B43A00541476 /* TabOption.swift */; };
+		157420B82C03B9E700541476 /* ScreenshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420B72C03B9E700541476 /* ScreenshotView.swift */; };
 		157C25F62C003D55001793DD /* CutItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C25F52C003D55001793DD /* CutItApp.swift */; };
 		157C25F82C003D55001793DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C25F72C003D55001793DD /* ContentView.swift */; };
 		157C25FA2C003D55001793DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157C25F92C003D55001793DD /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		157420AE2C03B3C400541476 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		157420B12C03B41000541476 /* TabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewModel.swift; sourceTree = "<group>"; };
 		157420B32C03B43A00541476 /* TabOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOption.swift; sourceTree = "<group>"; };
+		157420B72C03B9E700541476 /* ScreenshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotView.swift; sourceTree = "<group>"; };
 		157C25F22C003D55001793DD /* CutIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		157C25F52C003D55001793DD /* CutItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutItApp.swift; sourceTree = "<group>"; };
 		157C25F72C003D55001793DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				157420AB2C03B35100541476 /* Tab */,
+				157420B92C03B9EB00541476 /* Screenshot */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -91,6 +94,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		157420B92C03B9EB00541476 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				157420B72C03B9E700541476 /* ScreenshotView.swift */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		157C25E92C003D54001793DD = {
 			isa = PBXGroup;
 			children = (
@@ -114,8 +125,8 @@
 				157C25F72C003D55001793DD /* ContentView.swift */,
 				157C25F92C003D55001793DD /* Assets.xcassets */,
 				157C25FE2C003D55001793DD /* CutIt.entitlements */,
-				157C25FB2C003D55001793DD /* Preview Content */,
 				15BF2FF02C0231A800E1ACF9 /* ViewModel */,
+				157C25FB2C003D55001793DD /* Preview Content */,
 				157420AA2C03AF5300541476 /* Scenes */,
 			);
 			path = CutIt;
@@ -208,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157420B82C03B9E700541476 /* ScreenshotView.swift in Sources */,
 				157420B22C03B41000541476 /* TabViewModel.swift in Sources */,
 				15BF2FF22C0231D600E1ACF9 /* ScreenCaptureTypes.swift in Sources */,
 				157420B42C03B43A00541476 /* TabOption.swift in Sources */,
