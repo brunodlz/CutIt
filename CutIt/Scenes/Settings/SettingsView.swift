@@ -7,7 +7,7 @@ struct SettingsView: View {
 
     var body: some View {
         TabView {
-            GeneralView()
+            GeneralView(viewModel: .init())
                 .tabItem {
                     Label("General", systemImage: "gear")
                 }
