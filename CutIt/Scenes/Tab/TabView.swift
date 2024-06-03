@@ -15,8 +15,7 @@ struct TabView: View {
                 Spacer()
             }
             .padding()
-            .padding(.top, 36)
-            .background(BlurView())
+            .padding(.top, 18)
 
             ZStack {
                 ScreenshotView(viewModel: screenshotViewModel)
