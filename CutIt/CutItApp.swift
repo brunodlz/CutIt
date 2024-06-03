@@ -11,6 +11,7 @@ struct CutItApp: App {
                     minHeight: 600,
                     maxHeight: .infinity
                 )
+                .background(BlurView().ignoresSafeArea())
         }
         .windowStyle(.hiddenTitleBar)
     }
