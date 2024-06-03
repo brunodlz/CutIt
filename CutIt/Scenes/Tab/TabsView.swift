@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct TabView: View {
+struct TabsView: View {
     @StateObject var tabViewModel: TabViewModel
     @StateObject var screenshotViewModel: ScreenshotViewModel
 
@@ -8,11 +8,18 @@ struct TabView: View {
         HStack {
             VStack {
                 ForEach(tabViewModel.tabs, id: \.self) { option in
-                    TabButton(image: option.image, title: option.text) {
+                    TabButton(image: option.image,
+                              title: option.text) {
                         capture(from: option)
                     }
                 }
+
                 Spacer()
+
+                TabButton(image: "gear",
+                          title: "Settings") {
+                    
+                }
             }
             .padding()
             .padding(.top, 36)
@@ -40,6 +47,6 @@ struct TabView: View {
 }
 
 #Preview {
-    TabView(tabViewModel: .init(),
+    TabsView(tabViewModel: .init(),
             screenshotViewModel: .init())
 }

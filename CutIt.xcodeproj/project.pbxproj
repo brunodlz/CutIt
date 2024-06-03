@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		156D04102C08EB810075949E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156D040F2C08EB810075949E /* Theme.swift */; };
 		157420A92C03AF4E00541476 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420A82C03AF4E00541476 /* TabButton.swift */; };
 		157420AD2C03B36800541476 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420AC2C03B36800541476 /* BlurView.swift */; };
-		157420AF2C03B3C400541476 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420AE2C03B3C400541476 /* TabView.swift */; };
+		157420AF2C03B3C400541476 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420AE2C03B3C400541476 /* TabsView.swift */; };
 		157420B22C03B41000541476 /* TabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420B12C03B41000541476 /* TabViewModel.swift */; };
 		157420B42C03B43A00541476 /* TabOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420B32C03B43A00541476 /* TabOption.swift */; };
 		157420B82C03B9E700541476 /* ScreenshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157420B72C03B9E700541476 /* ScreenshotView.swift */; };
@@ -17,14 +18,18 @@
 		157C25F82C003D55001793DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C25F72C003D55001793DD /* ContentView.swift */; };
 		157C25FA2C003D55001793DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157C25F92C003D55001793DD /* Assets.xcassets */; };
 		157C25FD2C003D55001793DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157C25FC2C003D55001793DD /* Preview Assets.xcassets */; };
+		159D89AC2C06ACCD005CA93A /* SimpleTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159D89AB2C06ACCD005CA93A /* SimpleTabView.swift */; };
+		159D89AF2C06D4BE005CA93A /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159D89AE2C06D4BE005CA93A /* GeneralView.swift */; };
+		159D89B12C06DC41005CA93A /* ShortcutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159D89B02C06DC41005CA93A /* ShortcutsView.swift */; };
 		15BF2FEF2C0231A300E1ACF9 /* ScreenshotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF2FEE2C0231A300E1ACF9 /* ScreenshotViewModel.swift */; };
 		15BF2FF22C0231D600E1ACF9 /* ScreenshotTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF2FF12C0231D600E1ACF9 /* ScreenshotTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		156D040F2C08EB810075949E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		157420A82C03AF4E00541476 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		157420AC2C03B36800541476 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
-		157420AE2C03B3C400541476 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		157420AE2C03B3C400541476 /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 		157420B12C03B41000541476 /* TabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewModel.swift; sourceTree = "<group>"; };
 		157420B32C03B43A00541476 /* TabOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOption.swift; sourceTree = "<group>"; };
 		157420B72C03B9E700541476 /* ScreenshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotView.swift; sourceTree = "<group>"; };
@@ -34,6 +39,9 @@
 		157C25F92C003D55001793DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157C25FC2C003D55001793DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		157C25FE2C003D55001793DD /* CutIt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CutIt.entitlements; sourceTree = "<group>"; };
+		159D89AB2C06ACCD005CA93A /* SimpleTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTabView.swift; sourceTree = "<group>"; };
+		159D89AE2C06D4BE005CA93A /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
+		159D89B02C06DC41005CA93A /* ShortcutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsView.swift; sourceTree = "<group>"; };
 		15BF2FEE2C0231A300E1ACF9 /* ScreenshotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotViewModel.swift; sourceTree = "<group>"; };
 		15BF2FF12C0231D600E1ACF9 /* ScreenshotTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +62,7 @@
 			children = (
 				157420AB2C03B35100541476 /* Tab */,
 				157420B92C03B9EB00541476 /* Screenshot */,
+				159D89AD2C06ACCF005CA93A /* Settings */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -61,7 +70,7 @@
 		157420AB2C03B35100541476 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
-				157420AE2C03B3C400541476 /* TabView.swift */,
+				157420AE2C03B3C400541476 /* TabsView.swift */,
 				157420B02C03B3F900541476 /* Components */,
 				157420B62C03B44400541476 /* ViewModel */,
 				157420B52C03B43D00541476 /* Model */,
@@ -149,6 +158,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		159D89AD2C06ACCF005CA93A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				159D89AB2C06ACCD005CA93A /* SimpleTabView.swift */,
+				159D89AE2C06D4BE005CA93A /* GeneralView.swift */,
+				159D89B02C06DC41005CA93A /* ShortcutsView.swift */,
+				156D040F2C08EB810075949E /* Theme.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		15BF2FF02C0231A800E1ACF9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +247,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159D89B12C06DC41005CA93A /* ShortcutsView.swift in Sources */,
+				159D89AF2C06D4BE005CA93A /* GeneralView.swift in Sources */,
 				157420B82C03B9E700541476 /* ScreenshotView.swift in Sources */,
 				157420B22C03B41000541476 /* TabViewModel.swift in Sources */,
 				15BF2FF22C0231D600E1ACF9 /* ScreenshotTypes.swift in Sources */,
@@ -235,8 +257,10 @@
 				15BF2FEF2C0231A300E1ACF9 /* ScreenshotViewModel.swift in Sources */,
 				157420A92C03AF4E00541476 /* TabButton.swift in Sources */,
 				157C25F62C003D55001793DD /* CutItApp.swift in Sources */,
-				157420AF2C03B3C400541476 /* TabView.swift in Sources */,
+				157420AF2C03B3C400541476 /* TabsView.swift in Sources */,
 				157420AD2C03B36800541476 /* BlurView.swift in Sources */,
+				159D89AC2C06ACCD005CA93A /* SimpleTabView.swift in Sources */,
+				156D04102C08EB810075949E /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
