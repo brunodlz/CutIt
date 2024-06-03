@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct TabView: View {
+struct TabsView: View {
     @StateObject var tabViewModel: TabViewModel
     @StateObject var screenshotViewModel: ScreenshotViewModel
 
@@ -39,6 +39,6 @@ struct TabView: View {
 }
 
 #Preview {
-    TabView(tabViewModel: .init(),
+    TabsView(tabViewModel: .init(),
             screenshotViewModel: .init())
 }
