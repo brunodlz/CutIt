@@ -25,6 +25,7 @@
 		15BF2FF22C0231D600E1ACF9 /* ScreenshotTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF2FF12C0231D600E1ACF9 /* ScreenshotTypes.swift */; };
 		15D8F8FE2C0D5BD800B69891 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D8F8FD2C0D5BD800B69891 /* SettingsView.swift */; };
 		15D8F9012C0D5C4A00B69891 /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D8F9002C0D5C4A00B69891 /* GeneralView.swift */; };
+		15D8F9052C0D5F9A00B69891 /* GeneralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D8F9042C0D5F9A00B69891 /* GeneralViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +63,7 @@
 		15BF2FF12C0231D600E1ACF9 /* ScreenshotTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotTypes.swift; sourceTree = "<group>"; };
 		15D8F8FD2C0D5BD800B69891 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		15D8F9002C0D5C4A00B69891 /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
+		15D8F9042C0D5F9A00B69891 /* GeneralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				15D8F9002C0D5C4A00B69891 /* GeneralView.swift */,
+				15D8F9042C0D5F9A00B69891 /* GeneralViewModel.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				157420A92C03AF4E00541476 /* TabButton.swift in Sources */,
 				157C25F62C003D55001793DD /* CutItApp.swift in Sources */,
 				157420AF2C03B3C400541476 /* TabsView.swift in Sources */,
+				15D8F9052C0D5F9A00B69891 /* GeneralViewModel.swift in Sources */,
 				15D8F9012C0D5C4A00B69891 /* GeneralView.swift in Sources */,
 				157420AD2C03B36800541476 /* BlurView.swift in Sources */,
 				15D8F8FE2C0D5BD800B69891 /* SettingsView.swift in Sources */,
