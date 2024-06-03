@@ -225,9 +225,17 @@
 		15D8F9022C0D5C4D00B69891 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				15D8F9002C0D5C4A00B69891 /* GeneralView.swift */,
+				15D8F9032C0D5F7800B69891 /* General */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		15D8F9032C0D5F7800B69891 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				15D8F9002C0D5C4A00B69891 /* GeneralView.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
