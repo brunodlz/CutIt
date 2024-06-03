@@ -23,6 +23,7 @@
 		157C25FD2C003D55001793DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157C25FC2C003D55001793DD /* Preview Assets.xcassets */; };
 		15BF2FEF2C0231A300E1ACF9 /* ScreenshotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF2FEE2C0231A300E1ACF9 /* ScreenshotViewModel.swift */; };
 		15BF2FF22C0231D600E1ACF9 /* ScreenshotTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF2FF12C0231D600E1ACF9 /* ScreenshotTypes.swift */; };
+		15D8F8FE2C0D5BD800B69891 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D8F8FD2C0D5BD800B69891 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +59,7 @@
 		157C25FE2C003D55001793DD /* CutIt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CutIt.entitlements; sourceTree = "<group>"; };
 		15BF2FEE2C0231A300E1ACF9 /* ScreenshotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotViewModel.swift; sourceTree = "<group>"; };
 		15BF2FF12C0231D600E1ACF9 /* ScreenshotTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotTypes.swift; sourceTree = "<group>"; };
+		15D8F8FD2C0D5BD800B69891 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				157420AB2C03B35100541476 /* Tab */,
 				157420B92C03B9EB00541476 /* Screenshot */,
+				15D8F8FF2C0D5BDD00B69891 /* Settings */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -206,6 +209,14 @@
 				15BF2FEE2C0231A300E1ACF9 /* ScreenshotViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		15D8F8FF2C0D5BDD00B69891 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				15D8F8FD2C0D5BD800B69891 /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +337,7 @@
 				157C25F62C003D55001793DD /* CutItApp.swift in Sources */,
 				157420AF2C03B3C400541476 /* TabsView.swift in Sources */,
 				157420AD2C03B36800541476 /* BlurView.swift in Sources */,
+				15D8F8FE2C0D5BD800B69891 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
