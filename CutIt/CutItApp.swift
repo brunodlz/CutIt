@@ -14,5 +14,9 @@ struct CutItApp: App {
                 .background(BlurView().ignoresSafeArea())
         }
         .windowStyle(.hiddenTitleBar)
+
+        Settings {
+            SettingsView()
+        }
     }
 }
