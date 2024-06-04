@@ -12,6 +12,9 @@ struct CutItApp: App {
                     maxHeight: .infinity
                 )
                 .background(BlurView().ignoresSafeArea())
+                .onAppear {
+                    NSWindow.allowsAutomaticWindowTabbing = false
+                }
         }
         .windowStyle(.hiddenTitleBar)
     }
