@@ -17,5 +17,8 @@ struct CutItApp: App {
                 }
         }
         .windowStyle(.hiddenTitleBar)
+        .commands {
+            CommandGroup(replacing: .newItem) { }
+        }
     }
 }
