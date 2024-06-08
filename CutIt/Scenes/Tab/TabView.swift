@@ -23,7 +23,6 @@ struct TabView: View {
             .frame(maxWidth: .infinity,
                    maxHeight: .infinity)
         }
-        .ignoresSafeArea(.all, edges: .all)
     }
 
     private func capture(from option: TabOption) {
