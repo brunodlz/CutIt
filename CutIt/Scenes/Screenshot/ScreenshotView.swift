@@ -32,9 +32,9 @@ struct ScreenshotView: View {
                             saveIcon
                                 .padding(8)
                                 .onTapGesture {
-                                    print("Image: \(image.hashValue)")
+                                    let path = viewModel.pathToSaveScreenshot()
+                                    viewModel.save(image: image, path: path)
                                 }
-
                         }
                     }
                 }
